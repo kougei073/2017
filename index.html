@@ -139,7 +139,7 @@
   var font_loader = new THREE.FontLoader();
   font_loader.load( 'helvetiker_regular.typeface.json', function ( response  ) {
     var material_font = new THREE.MeshBasicMaterial( { color: 0xff6060 } );
-    var geometry_ready = new THREE.TextGeometry( 'Ready?<p>click to start</p>', {
+    var geometry_ready = new THREE.TextGeometry( 'click to start', {
       font: response,
       size: 1.5,
       height: 0.1,
